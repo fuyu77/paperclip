@@ -68,6 +68,7 @@ require 'mimemagic'
 require 'mimemagic/overlay'
 require 'logger'
 require 'terrapin'
+require 'addressable'
 
 require 'paperclip/railtie' if defined?(Rails::Railtie)
 
